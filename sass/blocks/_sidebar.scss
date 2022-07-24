@@ -1,0 +1,55 @@
+.sidebar{ 
+  background-image: url("../images/Mask-Group.png"); 
+  background-repeat: no-repeat; 
+  background-size: 100%;
+} 
+.sidebar__inner{  
+    position: relative;
+  padding: 90px 0 88px 231px;
+  margin-bottom: 216px; 
+  
+   &::before{  
+    
+    top: -95px; 
+    right: 0; 
+    bottom: 0; 
+    left: 710px;
+    width:613px ; 
+  height: 481px; 
+  position: absolute;
+  background-image: url("../images/katta-kuchuk.png"); 
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  content: '';
+}
+} 
+.sidebar__title{ 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 42%;
+    color: #FFFFFF;
+} 
+
+.sidebar__input{  
+    width: 335px; 
+    height: 50px; 
+    padding: 18px 0 12px 22px; 
+    vertical-align: middle; 
+    border-radius: 5px; 
+    margin-right: 21px; 
+    border: none;
+} 
+.sidebar__forum__button{ 
+vertical-align: middle; 
+width: 100%; 
+max-width: 180px; 
+padding: 15px 53px; 
+background: #333333;
+border-radius: 3px; 
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+border-radius: 3px; 
+border: none;
+}

@@ -1,0 +1,258 @@
+ .sity__header{ 
+
+    background-color: $header-bg-color;
+}
+ 
+ .header__inner{
+ padding: 11px 0px 9px 180px;
+}  
+
+.header__inner__link{ 
+    position: relative; 
+ text-decoration: none; 
+  display: inline-block; 
+  margin-right: 128px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #333333; 
+ &:nth-child(1){  
+     
+    margin-right: 128px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #333333; 
+    &::before{  
+        top: 0;  
+        range: 0; 
+        bottom: 0; 
+        left: -25px;
+      position: absolute;   
+      width: 14px; 
+      height: 14px;  
+     background-image: url("../images/hous.svg"); 
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     content: '';
+    }
+} 
+&:nth-child(2){  
+    margin-right: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333; 
+    &::before{  
+        top: 0;  
+        range: 0; 
+        bottom: 0; 
+        left: -25px;
+      position: absolute;   
+      width: 13px; 
+      height: 13px;  
+     background-image: url("../images/phone.svg"); 
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     content: '';
+    }
+} 
+
+&:nth-child(3){  
+    margin-right: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333; 
+
+    &::before{  
+        top: 4px;  
+        range: 0; 
+        bottom: 0; 
+        left: -16px;
+      position: absolute;   
+      width: 5px; 
+      height: 5px;  
+     background-image: url("../images/doira.svg"); 
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     content: '';
+    }
+} 
+&:nth-child(4){  
+    margin-right: 119px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333; 
+
+    &::before{  
+        top: 5px;  
+        range: 0; 
+        bottom: 0; 
+        left: -16px;
+      position: absolute;   
+      width: 5px; 
+      height: 5px;  
+     background-image: url("../images/doira.svg"); 
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     content: '';
+    }
+}   
+}
+.header__inner__link__activ:hover{ 
+ color: #FFBD54; 
+} 
+.header__inner__link__activ:active{ 
+    color: #333333;
+    opacity: 0.6;
+
+   }
+
+
+.header__inner__link__detetim{ 
+display: inline-block;
+text-decoration: none;   
+
+
+}
+
+.header__inner__time{   
+    margin-right: 17px;
+    position: relative;
+    display: inline-block; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;  
+    &::before{  
+   
+        top: 0;  
+        range: 0; 
+        bottom: 0; 
+        left: -25px;
+      position: absolute;   
+      width: 14px; 
+      height: 14px;   
+      background-image: url("../images/kalendar.svg");
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     content: '';
+    
+    }  
+
+} 
+
+.header__inner__tim{ 
+    display: inline-block; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;  
+}
+.header__inner__detetime{ 
+ display: inline-block; 
+
+} 
+
+
+/*--------------------------header__content-----------------------------*/ 
+ .header-content{ 
+    background-color:  #FFFFFF;
+} 
+
+.header__content{ 
+ padding: 20px 0 20px 243px;
+} 
+.header__content__logo{ 
+text-decoration: none; 
+position: relative;
+&::before{   
+    top: -40px;  
+    range: 0; 
+    bottom: 0; 
+    left: -281px;
+    width: 178px; 
+    height: 86px;
+    position: absolute;
+ background-image: url("../images/logo.svg"); 
+background-size: 100%; 
+background-repeat: no-repeat; 
+content: '';
+
+}
+} 
+.header__content__logo:hover{ 
+    opacity: 0.8;
+} 
+.header__content__logo:active{ 
+    opacity: 0.6;
+}
+.header__content__list{  
+    margin: 0;
+  display: flex; 
+  position: relative;
+align-items: center; 
+list-style: none; 
+padding-left: 0; 
+
+
+}  
+.header__content__item{ 
+ margin-right: 55px; 
+ position: relative; 
+
+  &:nth-child(1)::before{  
+    position: absolute; 
+    top: 3px; 
+    right: 0; 
+    bottom: 0; 
+    left: -25px;
+   width: 15px; 
+   height: 15px;
+background-image: url("../images/active.png"); 
+background-repeat: no-repeat; 
+background-size: 100%; 
+content: '';
+}
+
+
+ &:nth-child(6){ 
+ margin: 0; 
+ margin-right: 195px; 
+
+
+} 
+
+&:nth-child(7)::before{  
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: -25px;
+   width: 23px; 
+   height: 21px;
+background-image: url("../images/pet.png"); 
+background-repeat: no-repeat; 
+background-size: 100%; 
+content: '';
+}
+} 
+.header__content__activ:hover{ 
+ border-bottom: 3px solid #FFBD54; 
+} 
+ 
+.header__content__activ:active{ 
+    border-bottom: 3px solid #FFBD54;  
+    opacity: 0.6;
+   }
+.header__content__link{ 
+text-decoration: none; 
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #333333;
+}

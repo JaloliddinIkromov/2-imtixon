@@ -1,0 +1,77 @@
+.contact__inner{ 
+width: 1463px; 
+margin: 0 auto; 
+display: flex; 
+align-items: center; 
+margin-bottom: 247px;
+} 
+
+.contact__iframe{ 
+  width: 462px; 
+  
+   
+} 
+.contact__form{  
+    padding: 62px 0 74px 166px; 
+    background-color: #333;
+     width: 1000px; 
+ background-image: url("../images/baliq.png"),url("../images/feedback-bckg.png"); 
+ font-style: 411px 411px,100% 100%; 
+ background-repeat: no-repeat,no-repeat; 
+ background-position: calc(50% + 250px) calc( 50% + 20px);
+} 
+
+.contact__title{  
+    margin: 0; 
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+} 
+
+.contact__text{  
+    width: 334px; 
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+} 
+
+.contact__form__bloc{ 
+width: 375px;
+
+} 
+
+.contact__label{ 
+width: 100%;
+} 
+
+.contact__input{  
+ padding-left: 15px;   
+width: 100%; 
+height: 50px;
+margin-bottom: 14px; 
+background: #FFFFFF; 
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #949494;
+} 
+
+.butten__form{   
+    border: none;
+  width: 100%;  
+ max-width: 226px; 
+ padding: 12px 15px; 
+ background: #FFBD54;
+border-radius: 0px; 
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF; 
+margin-top: 30px;
+}  
+

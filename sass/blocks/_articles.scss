@@ -1,0 +1,154 @@
+ 
+ .articles__inner{ 
+  margin-bottom: 265px;
+}
+ .articles__title{ 
+  text-align: center;
+  font-weight: 700;
+font-size: 48px;
+line-height: 42%;
+color: #333333; 
+margin-bottom: 80px;
+
+} 
+.articles__list{ 
+
+ display: flex; 
+ align-items: center; 
+ justify-content: space-between; 
+ list-style: none; 
+ padding-left: 0px;
+} 
+.articles__item{ 
+ width: 305px; 
+ height: 435px;  
+ background-color: #fff;
+
+ &:nth-child(2){ 
+   display: flex; 
+   align-items: center;
+  width: 640px; 
+  height: 435px;
+}
+}  
+.articles__img{ 
+ margin-bottom: 21px;
+} 
+
+.articles__blocks{ 
+  padding: 0 31px 37px 30px;
+}
+.articles__time{   
+    display: block; 
+  text-decoration: none;  
+  text-align: right;  
+ font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #949494;
+
+} 
+.articles__subtitle{ 
+    width: 182px; 
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 114%;
+    color: #000000; 
+    margin-bottom: 10px;
+} 
+.articles__text{ 
+ width: 244px; 
+ font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #949494;
+margin-bottom: 27px;
+} 
+.articles__link{  
+    margin-left: 25px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;  
+     
+   &::before{   
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: -30px; 
+    width: 23px; 
+    height: 20px;
+    position: absolute;
+      background-repeat: no-repeat;
+     background-image: url("../images/link-panja.png"); 
+     background-size: 100%; 
+     content: '';
+   }
+}  
+
+.articles__link:hover{ 
+ 
+ opacity: 0.8;
+} 
+
+
+.articles__link:active{ 
+ 
+  opacity: 0.5;
+ } 
+
+
+.articles__item__img{  
+  width: 305px; 
+  height: 435px;
+} 
+.articles__content{ 
+  padding: 41px 34px 38px 31px ;
+}  
+
+.articles__con__link{ 
+
+text-decoration: none;
+}
+.articles__content__link{ 
+    display: inline-block; 
+  text-decoration: none; 
+  margin-right: 8px;  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA; 
+
+
+  &:nth-child(3){ 
+  margin-right: 49px;
+}
+}  
+.articles__content__title{  
+    width: 193px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 112%;
+    color: #333333;
+    
+}
+.articles__content__time{ 
+
+ font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #949494; 
+width: 71px;
+}  
+.articles__content__text{  
+    margin-bottom: 36px;
+  width: 270px; 
+  font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #949494;
+}
+
+

@@ -1,0 +1,37 @@
+.footer__inner{ 
+padding: 62px 0 69px 225px; 
+position: relative; 
+
+ &::before{  
+ top: 70px; 
+ right: 0; 
+ bottom: 0; 
+ left: -20px; 
+ position: absolute;
+ width:158px ; 
+ height: 77px;
+background-image: url("../images/logo.svg"); 
+background-size: 100%; 
+background-repeat: no-repeat;
+content: '';
+  }
+} 
+
+.footer__list{ 
+  list-style: none;
+padding-left: 0; 
+display: flex; 
+align-items: center;
+margin-bottom: 28px;
+} 
+.footer__link{  
+   
+  margin-bottom: 14px;
+ text-decoration: none;
+ font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #333333;
+}   
+
+

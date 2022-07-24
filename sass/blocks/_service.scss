@@ -1,0 +1,132 @@
+ 
+.service__inner{ 
+ margin-bottom: 235px;
+}
+   .service__inner__title{  
+text-align: center;
+  font-weight: 700; 
+font-size: 48px;
+line-height: 112%;
+align-items: center;
+color: #333333;
+} 
+.service__inner__list{ 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+
+
+
+} 
+.service__inner__item{  
+  width: 193px; 
+  height: 203px;  
+  background-color: #FFFFFF;
+  padding: 30px 32px 28px 35px; 
+   text-align: center; 
+   border: 1px solid #F3F3F3;
+   border-radius: 5px; 
+   
+ 
+   
+} 
+   
+  
+}  
+
+.service__inner__link{ 
+
+ text-decoration: none;
+} 
+.service__inner__subtitle{  
+display: block;
+ width: 126px; 
+ font-weight: 500;
+font-size: 18px;
+line-height: 122%;
+align-items: center;
+text-align: center;
+color: #333333; 
+
+} 
+.service__inner__link:hover{ 
+   opacity: 0.8;
+
+} 
+
+.service__inner__link:active{ 
+    opacity: 0.6;
+ 
+ }
+.service-cantent{  
+    padding: 41px 105px 41px 8px;
+  background-color: #FFFFFF; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}  
+.service__cantent__blog{ 
+  width: 492px;
+}
+.service__cantent__title{  
+    margin: 0;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 56%;
+    align-items: center;
+    color: #333333;
+} 
+
+.service__cantent__text{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%px;
+    color: #949494;
+    
+} 
+.service__btn{   
+    margin-top: 34px;
+    width: 100%;  
+    max-width: 185px;
+    padding: 12px 30px;
+    background-color: #FFBD54;
+    border-radius: 3px; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+}  
+.service__btn:hover{ 
+background-color: #FFBD54;
+color: #333333;
+} 
+.service__btn:active{ 
+   opacity: 0.6;
+    }
+
+.service__butten{ 
+    margin-top: 34px; 
+width: 100%; 
+max-width: 241px; 
+padding: 12px 30px; 
+background: #333333;
+border-radius: 3px;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF; 
+border: none;
+} 
+
+.service__butten:hover{ 
+  background-color: #333333; 
+  color: #FFBD54;
+} 
+
+.service__butten:active{ 
+ opacity: 0.6;
+}
